@@ -173,10 +173,6 @@ class AddressBook(UserDict):
                 if find_rec:
                     lst_result.append(f'{key}: {value.phones}')
         return lst_result
-        
-
-    # def __iter__(self):
-    #     return iter(self.data)
 
 
     def __next__(self):
