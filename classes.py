@@ -175,8 +175,8 @@ class AddressBook(UserDict):
         return lst_result
         
 
-    def __iter__(self):
-        return iter(self.data)
+    # def __iter__(self):
+    #     return iter(self.data)
 
 
     def __next__(self):
